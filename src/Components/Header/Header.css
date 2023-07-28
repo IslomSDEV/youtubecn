@@ -1,0 +1,160 @@
+.header {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 0 0;
+    background-color: #0F0F0F;
+}
+
+.headrCont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    display: inline-block;
+}
+
+.headerLeftEl {
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.headerMenu {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.headerMenuIcon {
+    color: #fff;
+    font-size: 25px;
+}
+
+.headerLogoImg {
+    width: 130px;
+    height: 70px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+
+.headerCenterEl {
+    width: 690px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.headerCenerForm {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.headerCenerInput {
+    width: 550px;
+    height: 40px;
+    display: inline-block;
+    font-size: 18px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 0 0 0 15px;
+    background: none;
+    border: 1px solid #5b5b5b;
+    color: #cdcdcd;
+    outline: none;
+    border-right: none;
+    
+}
+
+.headerCenterKeyboar {
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    right: 140px;
+    cursor: pointer;
+}
+
+.headerCenterSearchBtn {
+    width: 65px;
+    height: 42px;
+    border: 1px solid #5b5b5b;
+    outline: none;
+    background: #222222;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    cursor: pointer;
+}
+
+.headerCneterSearchIcon {
+    font-size: 23px;
+    color: #fff;
+}
+
+.headerCenterMicrophoneBtn {
+    background: #222222;
+    width: 55px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+}
+
+.headerCenterMicrophoneIcon {
+    font-size: 23px;
+    color: #fff;
+}
+
+
+
+.headerRightEl {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerRightAddBtn {
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.headerRightAddIcon {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.headerRightBellBtn {
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.headerRightBellIcon {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.headerRightAccount {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #5c6ae2;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+}

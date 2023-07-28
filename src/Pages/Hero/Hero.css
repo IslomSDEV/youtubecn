@@ -1,0 +1,224 @@
+.hero {
+    width: 100vw;
+}
+
+.flex {
+    width: 100vw;
+    display: flex;
+}
+
+.heroLeft {
+    width: 270px;
+}
+
+.heroLeftMenuList {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    background-color: #0F0F0F;
+    height: 700px;
+    overflow-y: scroll;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 30px solid #0F0F0F;
+}
+
+.heroLeftMenuList::-webkit-scrollbar{
+    background: #0F0F0F; 
+    width: 5px;
+}
+
+.heroLeftMenuList::-webkit-scrollbar-thumb {
+    background-color: #282828df;
+    border-radius: 10px;
+}
+
+.heroLeftItemList {
+    width: 95%;
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #969696b2;
+}
+
+.heroLeftNav {
+    width: 80%;
+    padding: 10px 0 10px 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.heroLeftNav:hover {
+    border-radius: 15px;
+    background-color: #272727;
+    cursor: pointer;
+}
+
+.heroLeftNavIcon {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.heroLeftNavTitle {
+    color: #fff;
+    font-size: 15px;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.heroItemTitleTExt {
+    width: 100%;
+}
+
+.heroItemSubTxt {
+    font-size: 19px;
+    color: #fff;
+    font-weight: 400;
+    margin: 20px 0 0 40px;
+}
+
+.heroleftChanelImg {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.heroRight {
+    width: 100px;
+}
+
+.heroRightFlex {
+    width: 100%;
+
+}
+
+
+.heroLeftItems > span {
+    font-size: 15px;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.heroLeftIcon {
+    font-size: 25px;
+    color: #fff;
+}
+
+
+.heroLeftMenuTitle {
+    padding: 15px 0;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.heroRightFlex {
+    width: 1266px;
+    display: flex;
+    flex-direction: column;
+    background-color: #0F0F0F;
+}
+
+.heroRightSortTop {
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    padding: 10px 25px;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    border-left: 15px solid #0F0F0F;
+    border-right: 15px solid #0F0F0F;
+
+}
+
+.heroRightSortTop::-webkit-scrollbar {
+    height: 5px;
+}
+
+.heroRightSortTop::-webkit-scrollbar-thumb {
+    background: #222222;
+    border-radius: 15px;
+}
+
+.heroRightBtnSort {
+    padding: 10px 15px;
+    font-size: 16px;
+    background: #353535;
+    color: #fff;
+    border-radius: 17px;
+    margin-left: 10px;   
+    outline: none;
+    border: none;
+    display: flex;
+    white-space: nowrap;
+}
+
+.heroRightBtnSort:hover {
+    background-color: #5d5d5d;
+}
+
+.heroRightMainCard {
+    display: grid;
+    justify-content: center;
+    padding-top: 50px;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    list-style: none;
+    box-sizing: border-box;
+    width: 1266px;
+    height: 655px;
+    background-color: #0F0F0F;
+    border-bottom: 20px solid #0F0F0F;
+    overflow-y: auto;
+}
+
+.heroCardsLink {
+    text-decoration: none;
+}
+
+.heroCardsBottomflex {
+    width: 340px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.heroImgBox {
+    width: 330px;
+    height: 200px;
+}
+
+.heroVideos {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.heroChanelImgae {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: red;
+}
+
+.chanelPic {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.heroCardTitleBox {
+    max-width: 300px;
+}
+
+.heroCardTitle {
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 10px;
+}
